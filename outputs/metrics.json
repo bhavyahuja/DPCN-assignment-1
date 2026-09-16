@@ -1,0 +1,254 @@
+{
+  "k": 8,
+  "missing": {
+    "n_respondents": 91,
+    "n_questions": 60,
+    "n_missing_cells": 242,
+    "missing_rate": 0.044322344322344324,
+    "items_with_missing": {
+      "T03": 2,
+      "T08": 1,
+      "T09": 1,
+      "T11": 2,
+      "T12": 1,
+      "T13": 2,
+      "T14": 1,
+      "T15": 1,
+      "E01": 4,
+      "E02": 4,
+      "E03": 4,
+      "E04": 4,
+      "E05": 6,
+      "E06": 5,
+      "E07": 4,
+      "E08": 6,
+      "E09": 5,
+      "E10": 4,
+      "E11": 4,
+      "E12": 4,
+      "E13": 6,
+      "E14": 4,
+      "E15": 4,
+      "S01": 5,
+      "S02": 4,
+      "S03": 4,
+      "S04": 4,
+      "S05": 4,
+      "S06": 4,
+      "S07": 5,
+      "S08": 5,
+      "S09": 6,
+      "S10": 7,
+      "S11": 4,
+      "S12": 5,
+      "S13": 4,
+      "S14": 7,
+      "S15": 5,
+      "V01": 6,
+      "V02": 6,
+      "V03": 5,
+      "V04": 5,
+      "V05": 5,
+      "V06": 7,
+      "V07": 6,
+      "V08": 6,
+      "V09": 6,
+      "V10": 6,
+      "V11": 7,
+      "V12": 7,
+      "V13": 6,
+      "V14": 6,
+      "V15": 6
+    }
+  },
+  "global": {
+    "n_nodes": 91,
+    "n_edges": 357,
+    "density": 0.08717948717948718,
+    "average_degree": 7.846153846153846,
+    "average_clustering": 0.16801709364210193,
+    "n_components": 1,
+    "largest_component_size": 91,
+    "avg_shortest_path": 2.594871794871795,
+    "diameter": 6
+  },
+  "modularity": 0.3693057376502279,
+  "community_sizes": {
+    "0": 11,
+    "1": 23,
+    "2": 15,
+    "3": 20,
+    "4": 22
+  },
+  "community_profiles": [
+    {
+      "community": 0,
+      "size": 11,
+      "Technology": 3.9115151515151516,
+      "Education": 3.586666666666666,
+      "Ethics": 4.023148148148148,
+      "Environment": 4.000396825396825,
+      "overall": 3.880431697931698
+    },
+    {
+      "community": 1,
+      "size": 23,
+      "Technology": 4.129249011857708,
+      "Education": 3.9671936758893285,
+      "Ethics": 4.342424242424242,
+      "Environment": 4.521739130434783,
+      "overall": 4.240151515151514
+    },
+    {
+      "community": 2,
+      "size": 15,
+      "Technology": 3.896190476190476,
+      "Education": 3.9657387057387057,
+      "Ethics": 4.437777777777779,
+      "Environment": 4.586666666666667,
+      "overall": 4.221593406593407
+    },
+    {
+      "community": 3,
+      "size": 20,
+      "Technology": 4.060350877192983,
+      "Education": 3.957368421052631,
+      "Ethics": 4.329999999999999,
+      "Environment": 4.42421052631579,
+      "overall": 4.192982456140351
+    },
+    {
+      "community": 4,
+      "size": 22,
+      "Technology": 3.867532467532468,
+      "Education": 3.912280701754386,
+      "Ethics": 4.167641325536062,
+      "Environment": 4.185964912280702,
+      "overall": 4.033354851775905
+    }
+  ],
+  "top_central": {
+    "degree": [
+      {
+        "respondent_id": "114",
+        "score": 15.20081288520024
+      },
+      {
+        "respondent_id": "104",
+        "score": 15.043167431747703
+      },
+      {
+        "respondent_id": "90",
+        "score": 10.858922918896244
+      },
+      {
+        "respondent_id": "81",
+        "score": 10.633442788617371
+      },
+      {
+        "respondent_id": "95",
+        "score": 10.621649094308388
+      }
+    ],
+    "betweenness": [
+      {
+        "respondent_id": "104",
+        "score": 0.165792759051186
+      },
+      {
+        "respondent_id": "114",
+        "score": 0.14307116104868914
+      },
+      {
+        "respondent_id": "95",
+        "score": 0.08938826466916354
+      },
+      {
+        "respondent_id": "90",
+        "score": 0.08039950062421972
+      },
+      {
+        "respondent_id": "77",
+        "score": 0.07565543071161049
+      }
+    ],
+    "eigenvector": [
+      {
+        "respondent_id": "114",
+        "score": 0.3070997147306249
+      },
+      {
+        "respondent_id": "104",
+        "score": 0.29773807785646367
+      },
+      {
+        "respondent_id": "81",
+        "score": 0.25907872876113236
+      },
+      {
+        "respondent_id": "61",
+        "score": 0.2213789142680101
+      },
+      {
+        "respondent_id": "110",
+        "score": 0.21715902341631205
+      }
+    ]
+  },
+  "category_metrics": {
+    "T": {
+      "n_nodes": 91,
+      "n_edges": 354,
+      "density": 0.08644688644688645,
+      "average_degree": 7.78021978021978,
+      "average_clustering": 0.21054073391150394,
+      "n_components": 1,
+      "largest_component_size": 91,
+      "avg_shortest_path": 2.741880341880342,
+      "diameter": 5,
+      "modularity": 0.5113985006141827,
+      "n_communities": 7
+    },
+    "E": {
+      "n_nodes": 91,
+      "n_edges": 367,
+      "density": 0.08962148962148962,
+      "average_degree": 8.065934065934066,
+      "average_clustering": 0.20633144590974783,
+      "n_components": 1,
+      "largest_component_size": 91,
+      "avg_shortest_path": 2.7072039072039074,
+      "diameter": 5,
+      "modularity": 0.42084948854980836,
+      "n_communities": 13
+    },
+    "S": {
+      "n_nodes": 91,
+      "n_edges": 393,
+      "density": 0.09597069597069598,
+      "average_degree": 8.637362637362637,
+      "average_clustering": 0.17175305907955135,
+      "n_components": 1,
+      "largest_component_size": 91,
+      "avg_shortest_path": 2.56971916971917,
+      "diameter": 5,
+      "modularity": 0.48103604750765294,
+      "n_communities": 16
+    },
+    "V": {
+      "n_nodes": 91,
+      "n_edges": 432,
+      "density": 0.1054945054945055,
+      "average_degree": 9.494505494505495,
+      "average_clustering": 0.14392649656692372,
+      "n_components": 1,
+      "largest_component_size": 91,
+      "avg_shortest_path": 2.3597069597069598,
+      "diameter": 4,
+      "modularity": 0.4415027172842179,
+      "n_communities": 22
+    }
+  },
+  "n_respondents": 91,
+  "n_dropped_empty": 5
+}
