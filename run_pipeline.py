@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""End-to-end opinion-network pipeline: data -> graphs -> figures -> report PDF."""
+"""End-to-end opinion-network pipeline: data -> graphs -> figures and metrics."""
 
 from __future__ import annotations
 
@@ -25,7 +25,6 @@ from src.preprocess import (
     score_matrix,
     summarize_missing,
 )
-from src.report import build_report
 from src.visualize import (
     plot_category_modularity,
     plot_category_networks,
@@ -39,7 +38,6 @@ ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data" / "Survey_Results_UC.csv"
 FIG = ROOT / "outputs" / "figures"
 OUT_METRICS = ROOT / "outputs" / "metrics.json"
-REPORT = ROOT / "report" / "report.pdf"
 K = 8
 
 
@@ -103,8 +101,7 @@ def main() -> None:
     profiles.to_csv(ROOT / "outputs" / "community_profiles.csv", index=False)
     encoded.to_csv(ROOT / "outputs" / "encoded_scores.csv", index=False)
 
-    build_report(metrics, FIG, REPORT)
-    print(f"Wrote {REPORT}")
+    print(f"Wrote {OUT_METRICS}")
     print(f"Communities: {metrics['community_sizes']}")
     print(f"Modularity: {metrics['modularity']:.3f}")
     print(f"Edges: {gmetrics['n_edges']}")
